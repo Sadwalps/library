@@ -5,6 +5,7 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Link } from 'react-router-dom';
 
 
 function NavBar() {
@@ -17,9 +18,9 @@ function NavBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto " >
             <Nav.Link  active href="#home" id='nav1' >HOME</Nav.Link>
-            <Nav.Link href="#link" id='nav2' >ABOUT</Nav.Link>
-            <Nav.Link href="#link" id='nav2'>OUR BOOKS</Nav.Link>
-            <Nav.Link href="#link" id='nav2'>CONTACT US</Nav.Link>
+            <Nav.Link href="#about" id='nav2' >ABOUT</Nav.Link>
+            <Nav.Link href="#book" id='nav2'>OUR BOOKS</Nav.Link>
+            <Link to={'/contact'} id='nav2'>CONTACT US</Link>
             <Nav.Link href="#link" id='nav2' ><FontAwesomeIcon icon={faMagnifyingGlass}  style={{fontSize:"25px"}}/></Nav.Link>
             <Nav.Link href="#link" id='nav3'><FontAwesomeIcon icon={faUser} /></Nav.Link>
             

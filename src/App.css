@@ -7,6 +7,9 @@
     color: white;
     font-weight: 700;
     margin-left: 10px;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
 }
 #nav2:hover{
     color: rgb(209, 14, 14);
@@ -28,6 +31,116 @@
     color: rgb(94, 5, 54);
     transition-duration: .5s;
 }
+#aboutmaindiv{
+    background-image: url(https://img.freepik.com/premium-photo/abstract-grey-canvas-texture-vintage-book-cover-background_1484-1668.jpg) ;
+}
+
+.mbut{
+    padding: 15px 55px 15px 55px;
+    border-radius: 30px;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(94, 5, 54);
+    border: 0px;
+}
+.mbut:hover{
+    background-color: black;
+    transition-duration: .4s;
+}
+#libdiv{
+    background-image: url(./downlad_img-removebg-preview.png);
+    height: 670px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footerlogodiv{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+    cursor: pointer;
+}
+
+.footerlogof:hover{
+    color: rgb(46, 46, 206);
+}
+.footerlogot:hover{
+    color: rgb(34, 121, 221);
+}
+.footerlogoi:hover{
+   color: rgb(234, 13, 197); 
+}
+.footerlogol:hover{
+    color: rgb(73, 73, 169);
+}
+#footerbtn{
+    height: 47px;
+    color: white;
+    background-color: rgb(24, 23, 23);
+    font-size: 17px;
+    font-weight: 600;
+}
+#footerbtn:hover{
+    color:  rgb(24, 23, 23); 
+    background-color: white;
+    transition-duration: .3s;
+}
+#footermaindiv{
+    background-image:linear-gradient(to bottom , rgb(94, 5, 54), rgb(218, 33, 147))
+}
+#contactbtn{
+    width: 200px;
+    font-size: larger;
+    color: white;
+    background-color: rgb(94, 5, 54);
+}
+#contactbtn:hover{
+    color:  rgb(94, 5, 54);
+    background-color: white;
+    font-weight: 500;
+    transition-duration: .3s;
+}
+
+@media screen and (max-width:768px){
+    .mbut{
+        padding: 12px 45px 12px 45px;
+        font-size: 20px;
+    }#libdiv{
+        height: 550px;
+    }
+}
+
+@media screen and (max-width:440px){
+    #libdiv{
+        height: 380px;
+    }
+    .footerlogodiv{
+        height: 40px;
+        width: 40px;
+        font-size: 20px;
+        
+    }
+    #footerbtn{
+        height: 40px;
+       
+        font-size: 15px;
+        font-weight: 400;
+    }
+    #contactbtn{
+        width: 170px;
+        font-size: medium;
+       
+       
+    }
+}
+
+
+
+
 
 
 
