@@ -146,7 +146,7 @@
 
 @media screen and (max-width:440px){
     #libdiv{
-        height: 380px;
+        height: 360px;
     }
     .footerlogodiv{
         height: 40px;
@@ -169,7 +169,7 @@
      margin-top: 20px;
     }
     #homesubdiv{
-        margin-left: 1px;
+        margin-left: 0px;
         margin-top: 50px;
         padding-top: 10px;
         padding-bottom: 10px;
