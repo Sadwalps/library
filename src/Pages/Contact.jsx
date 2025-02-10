@@ -4,6 +4,7 @@ function Contact() {
   return (
  <>
   <div className="container-fluid bg-dark pt-lg-5 pt-2 pb-5 text-center">
+    <form action="">
     <div className="row">
       <div className="col-md-1">sd</div>
       <div className="col-md-10">
@@ -21,8 +22,10 @@ function Contact() {
       
     </div>
     <div className='mt-lg-5 mt-2 mb-lg-5 mb-2   pb-lg-4 pb-2'>
-    <button className='btn rounded-0  ' id='contactbtn'>Send</button>
+    <button className='btn rounded-0  ' id='contactbtn'  type='submit'> Send</button>
+    
     </div>
+    </form>
   </div>
  </>
   )
