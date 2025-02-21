@@ -12,7 +12,7 @@ function Contact() {
           <h1 className='text-light mt-lg-5 mt-3 mb-lg-4 mb-2'>Contact</h1>
           <div className="col-md-3 mt-lg-5 mt-3 "><input type="text" style={{outline:"none",border:"0px", width:"100%",height:"47px"}} className='p-4' placeholder='Name' /></div>
           <div className="col-md-3 mt-lg-5 mt-3"><input type="text" style={{outline:"none",border:"0px", width:"100%",height:"47px"}} className='p-4' placeholder='Phone Number' /></div>
-          <div className="col-md-3 mt-lg-5 mt-3"><input type="text" style={{outline:"none",border:"0px", width:"100%",height:"47px"}} className='p-4' placeholder='Email' /></div>
+          <div className="col-md-3 mt-lg-5 mt-3"><input type="email" style={{outline:"none",border:"0px", width:"100%",height:"47px"}} className='p-4' placeholder='Email' /></div>
           <div className="col-md-3 mt-lg-5 mt-3"><input type="text" style={{outline:"none",border:"0px", width:"100%",height:"47px"}} className='p-4' placeholder='Message' /></div>
           
         </div>
