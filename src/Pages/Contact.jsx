@@ -22,7 +22,7 @@ function Contact() {
       
     </div>
     <div className='mt-lg-5 mt-2 mb-lg-5 mb-2   pb-lg-4 pb-2'>
-    <button className='btn rounded-0  ' id='contactbtn'  type='submit'> Send</button>
+    <button className='btn rounded-0  ' id='contactbtn'  type="reset"> Send</button>
     
     </div>
     </form>
