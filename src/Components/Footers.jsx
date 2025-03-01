@@ -29,7 +29,7 @@ function Footers() {
         <input type="text" style={{outline:"none",border:"0px", width:"100%",height:"47px"}} className='p-4' placeholder='Enter your email' />
       </div>
       <div className="col-md-3  mt-lg-1 mt-3">
-        <button className='btn w-lg-100  rounded-0' id='footerbtn' type='submit'>Subscribe</button>
+        <button className='btn w-lg-100  rounded-0' id='footerbtn' type='reset'>Subscribe</button>
       </div>
      </div>
      </form>
