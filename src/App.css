@@ -1,10 +1,11 @@
-#homemaindiv{
+#homemaindiv {
     background-image: url(https://wallpaperaccess.com/full/253332.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
 }
-#homesubdiv{
+
+#homesubdiv {
     margin-left: 30px;
     margin-top: 70px;
     padding-top: 30px;
@@ -13,19 +14,22 @@
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 20px;
 }
-#nav1{
+
+#nav1 {
     color: white;
-    font-weight: 700; 
+    font-weight: 700;
     margin-left: 20px;
-    font-size:large;
+    font-size: large;
     text-decoration: none;
 }
-#nav1:hover{
+
+#nav1:hover {
     color: rgb(209, 14, 14);
     transition-duration: .5s;
 }
-#nav2{
-    font-size:large;
+
+#nav2 {
+    font-size: large;
     color: white;
     font-weight: 700;
     margin-left: 20px;
@@ -33,19 +37,21 @@
     text-decoration: none;
     align-items: center;
 }
-#nav2:hover{
+
+#nav2:hover {
     color: rgb(209, 14, 14);
     transition-duration: .5s;
 }
-#nav{
-   background-image: linear-gradient(to bottom , rgb(166, 0, 255),rgb(230, 79, 207));
+
+#nav {
+    background-image: linear-gradient(to bottom, rgb(166, 0, 255), rgb(230, 79, 207));
 }
 
-#aboutmaindiv{
-    background-image: url(https://img.freepik.com/premium-photo/abstract-grey-canvas-texture-vintage-book-cover-background_1484-1668.jpg) ;
+#aboutmaindiv {
+    background-image: url(https://img.freepik.com/premium-photo/abstract-grey-canvas-texture-vintage-book-cover-background_1484-1668.jpg);
 }
 
-.mbut{
+.mbut {
     padding: 15px 55px 15px 55px;
     border-radius: 30px;
     font-size: 25px;
@@ -53,17 +59,20 @@
     background-color: rgb(94, 5, 54);
     border: 0px;
 }
-.mbut:hover{
+
+.mbut:hover {
     background-color: black;
     transition-duration: .4s;
 }
-#libdiv{
-    background-image: url(./downlad_img-removebg-preview.png);
+
+#libdiv {
+    background-image: url(./assets/downlad_img-removebg-preview.png);
     height: 670px;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.footerlogodiv{
+
+.footerlogodiv {
     height: 50px;
     width: 50px;
     background-color: white;
@@ -75,108 +84,124 @@
     cursor: pointer;
 }
 
-.footerlogof:hover{
+.footerlogof:hover {
     color: rgb(46, 46, 206);
 }
-.footerlogot:hover{
+
+.footerlogot:hover {
     color: rgb(34, 121, 221);
 }
-.footerlogoi:hover{
-   color: rgb(234, 13, 197); 
+
+.footerlogoi:hover {
+    color: rgb(234, 13, 197);
 }
-.footerlogol:hover{
+
+.footerlogol:hover {
     color: rgb(73, 73, 169);
 }
-#footerbtn{
+
+#footerbtn {
     height: 47px;
     color: white;
     background-color: rgb(24, 23, 23);
     font-size: 17px;
     font-weight: 600;
 }
-#footerbtn:hover{
-    color:  rgb(24, 23, 23); 
+
+#footerbtn:hover {
+    color: rgb(24, 23, 23);
     background-color: white;
     transition-duration: .3s;
 }
-#footermaindiv{
-    background-image:linear-gradient(to bottom , rgb(94, 5, 54), rgb(218, 33, 147))
+
+#footermaindiv {
+    background-image: linear-gradient(to bottom, rgb(94, 5, 54), rgb(218, 33, 147))
 }
-#contactbtn{
+
+#contactbtn {
     width: 200px;
     font-size: larger;
     color: white;
     background-color: rgb(94, 5, 54);
 }
-#contactbtn:hover{
-    color:  rgb(94, 5, 54);
+
+#contactbtn:hover {
+    color: rgb(94, 5, 54);
     background-color: white;
     font-weight: 500;
     transition-duration: .3s;
 }
-#mainlibdiv{
+
+#mainlibdiv {
     background-image: url(https://www.tilelook.com/system/tile_picture/resource/15787994/d3d_default_URBEX_STYLE_WHITE_60X120_001.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-  
     padding-top: 20px;
     padding-bottom: 50px;
-    
 }
-#bookcards{
-    background-color:white;
+
+#bookcards {
+    background-color: white;
     margin-top: 40px;
     width: 20rem;
     border-radius: 0px;
     height: 36rem;
 }
-#bookcards:hover{
-  background-color: rgb(192, 204, 204);
-  transition-duration: .2s;
+
+#bookcards:hover {
+    background-color: rgb(192, 204, 204);
+    transition-duration: .2s;
 }
 
-@media screen and (max-width:768px){
-    .mbut{
+/* media query */
+@media screen and (max-width:768px) {
+    .mbut {
         padding: 12px 45px 12px 45px;
         font-size: 20px;
-    }#libdiv{
+    }
+
+    #libdiv {
         height: 550px;
     }
-    #nav1{
+
+    #nav1 {
         margin-top: 10px;
         margin-bottom: 10px;
     }
-    #nav2{
+
+    #nav2 {
         margin-top: 10px;
         margin-bottom: 10px;
     }
 }
 
-@media screen and (max-width:440px){
-    #libdiv{
+@media screen and (max-width:440px) {
+    #libdiv {
         height: 360px;
     }
-    .footerlogodiv{
+
+    .footerlogodiv {
         height: 40px;
         width: 40px;
         font-size: 20px;
-        
     }
-    #footerbtn{
+
+    #footerbtn {
         height: 40px;
-       
         font-size: 15px;
         font-weight: 400;
     }
-    #contactbtn{
+
+    #contactbtn {
         width: 170px;
         font-size: medium;
-       
     }
-    #bookcards{
-     margin-top: 20px;
+
+    #bookcards {
+        margin-top: 20px;
     }
-    #homesubdiv{
+
+    #homesubdiv {
         margin-left: 0px;
         margin-top: 50px;
         padding-top: 10px;
@@ -186,20 +211,14 @@
         border-radius: 10px;
         width: 100%;
     }
-    #nav2{
+
+    #nav2 {
         margin-top: 10px;
         margin-bottom: 10px;
     }
-    #nav1{
+
+    #nav1 {
         margin-top: 10px;
         margin-bottom: 10px;
     }
-   
 }
-
-
-
-
-
-
-

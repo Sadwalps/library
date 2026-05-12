@@ -7,17 +7,16 @@ import NavBar from './Components/NavBar'
 import Footers from './Components/Footers'
 import LibMore from './Pages/LibMore'
 function App() {
-  
 
   return (
     <>
-    <NavBar/>
-     <Routes>
-      <Route path='/' element={<Home/>}/>
-      <Route path='/contact' element={<Contact/>} />
-      <Route path='/books' element={<LibMore/>}/>
-     </Routes>
-     <Footers/>
+      <NavBar />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/books' element={<LibMore />} />
+      </Routes>
+      <Footers />
     </>
   )
 }
