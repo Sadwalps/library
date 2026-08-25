@@ -34,7 +34,7 @@ The main landing page directly incorporates the *Hero Section* within Home.jsx, 
 1. *Hero Section (Directly built in Home.jsx)*
    * Background image featuring a modern library.
    * Main heading accompanied by a short description paragraph.
-   * *More* button (redirects to the Our Books page).
+   * *Read More* button (redirects to the Our Books page).
    * Social media logos with dynamic hover effects .
 
 2. *About Section (About.jsx)*
@@ -62,8 +62,8 @@ Displays all available books arranged in clean, responsive *Cards*. Each card in
 Allows users to input details into form fields with local state logic (No Backend API):
 * *Input Fields:* Name, Phone Number, Email, Message.
 * *Send Button:*
-  * Shows a simulated "Message send successful" popup if all inputs are filled.
-  * Displays "Fill the form complete" if any required field is empty.
+  * Shows a simulated "Message send successfully" popup if all inputs are filled.
+  * Displays "Fill the form completely" if any required field is empty.
 * *Cancel Button:* Resets and clears all entered text from the form fields locally.
 
 ###  Footer Component (Footer.jsx)
