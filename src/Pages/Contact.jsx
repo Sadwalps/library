@@ -21,7 +21,8 @@ function Contact() {
     }
   }
 
-  const handleCancel = () => {
+  const handleCancel = (e) => {
+    e.preventDefault()
     setMessageDetails({
       name: "",
       phone: "",
@@ -49,7 +50,7 @@ function Contact() {
           </div>
           <div className='mt-lg-5 mt-2 mb-lg-5 mb-2  pb-lg-4 pb-2'>
             <button onClick={(e) => handleSend(e)} className='btn rounded-0  mx-1 my-1' id='contactbtn'> Send</button>
-            <button onClick={handleCancel} className='btn rounded-0  mx-1 my-1' id='contactbtn'> Cancel</button>
+            <button onClick={(e) => handleCancel(e)} className='btn rounded-0  mx-1 my-1' id='contactbtn'> Cancel</button>
           </div>
         </form>
       </div>
