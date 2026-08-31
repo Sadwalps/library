@@ -9,7 +9,8 @@ function Contact() {
   })
   console.log(messageDetails);
 
-  const handleSend = () => {
+  const handleSend = (e) => {
+    e.preventDefault()
     const { name, phone, email, message } = messageDetails
     console.log(name, phone, email, message);
     if (!name || !phone || !email || !message) {
@@ -47,7 +48,7 @@ function Contact() {
             <div className="col-1">dsas</div>
           </div>
           <div className='mt-lg-5 mt-2 mb-lg-5 mb-2  pb-lg-4 pb-2'>
-            <button onClick={handleSend} className='btn rounded-0  mx-1 my-1' id='contactbtn'> Send</button>
+            <button onClick={(e) => handleSend(e)} className='btn rounded-0  mx-1 my-1' id='contactbtn'> Send</button>
             <button onClick={handleCancel} className='btn rounded-0  mx-1 my-1' id='contactbtn'> Cancel</button>
           </div>
         </form>
